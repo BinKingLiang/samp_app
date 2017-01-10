@@ -10,7 +10,11 @@ class StaticPagesController < ApplicationController
   	
   end
 
-  def connect
-  	
+  def conntact
+  	render :json => {
+     :name=>"xiaoliang",
+     :adress=>"上海市南翔镇",
+     :sex=>"男"
+    }
   end
 end
